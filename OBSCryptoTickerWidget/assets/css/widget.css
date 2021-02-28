@@ -1,0 +1,180 @@
+:root {
+  	/*default theme*/
+	--line-up-color: rgba(255, 255, 255, 1);
+	--line-down-color: rgba(255, 255, 255, 1);
+	--text-color: rgba(255, 255, 255, 1);
+	--background-color: rgba(37, 45, 71, .7);
+	--chart-up-fill-color: rgba(109, 249, 122, .5);
+	--chart-down-fill-color: rgba(249, 122, 109, .5);
+	--chart-border-color: rgba(223, 116, 12, 1);
+}
+
+
+.arrow {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    left: 15px;
+    position: relative;
+    top: 6px;
+}
+  .arrow-top {
+	transform: rotate(-45deg);
+	border-top: 2px solid rgba(109, 249, 122, 1);
+    border-right: 2px solid rgba(109, 249, 122, 1);
+  }
+  .arrow-bottom {
+	transform: rotate(135deg);
+	border-top: 2px solid rgba(249, 122, 109, 1);
+    border-right: 2px solid rgba(249, 122, 109, 1);
+	top: -3px;
+  }
+
+/*defaults*/
+.widget {
+    padding-top: 20px;
+    background-color: var(--background-color);
+    border-radius: 20px;
+    width: 500px;
+    height: 192px;
+    /* border-bottom: solid 15px grey; */
+    font-family: Arial, Helvetica, sans-serif;
+  	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 0 4px 4px 0 rgb(0 0 0 / 35%);
+    font-size: 30px;
+}
+
+#coin-label {
+    display: block;
+    text-align: center;
+    color: var(--text-color);
+    text-transform: capitalize;
+}
+
+
+img.coin-image {
+    height: 35px;
+    position: relative;
+    padding-right: 5px;
+    margin-bottom: -8px;
+}
+
+.chart-container {
+	position: relative;
+	height: 40vh;
+	width: 500px;
+	margin-top: -7px;
+}
+
+canvas#myChart {
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    top: 14px;
+}
+
+div#price-desc{
+	font-size: 70%;
+	padding-top:13px;
+}
+
+/*dogecoin font fix*/
+.dogecoin {
+	font-family: doge_sansregular;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.dogecoin #price-desc {
+	padding-top: 0px;
+}
+/*end dogecoin font fix*/
+
+/*end defaults*/
+
+/*retro theme*/
+
+.retro {
+	--line-up-color: rgba(3, 94, 232, 1);
+	--line-down-color: rgba(151, 0, 204, 1);
+	--text-color: rgba(151, 0, 204, 1);
+	--background-color: rgba(45, 226, 230, .7);
+	--chart-up-fill-color: rgba(246, 1, 157, 1);
+	--chart-down-fill-color: rgba(246, 1, 157, 1);
+	--chart-border-color: rgba(223, 116, 12, 1);
+}
+/*end retro theme*/
+
+/*easter theme
+light blue (45,226,230)
+dark blue (3,94,232)
+pinky red (246,1,157)
+magenta (246,1,157)
+purple (246,1,157)*/
+.easter {
+	--line-up-color: rgba(150, 255, 171, 1);
+	--line-down-color: rgba(246, 1, 157, 1);
+	--text-color: rgba(246, 1, 157, 1);
+	--background-color: rgba(255,235,175, .7);
+	--chart-up-fill-color: rgba(193,240,251, 1);
+	--chart-down-fill-color: rgba(193,240,251, 1);
+	--chart-border-color: rgba(223, 116, 12, 1);
+}
+
+/*end easter theme*/
+
+/*tron theme
+orange 223, 116, 12
+yellow 255, 230, 77
+light blue 230,255,255
+blue 111,195,223
+dark blue 12,20,31*/
+.widget.tron {
+	--text-color: rgba(111, 195, 223, 1);
+	--line-up-color: rgba(111, 195, 223, 1);
+	--line-down-color: rgba(223, 116, 12, 1);
+	--background-color: rgba(12, 20, 31, 1);
+	--chart-up-fill-color: rgba(12, 20, 31, 1);
+	--chart-down-fill-color: rgba(12, 20, 31, 1);
+	--border-color: rgba(223, 116, 12, 1);
+	border: solid 4px var(--border-color); 
+	border-radius: 26px;
+}
+
+/*end tron theme*/
+
+/*fishy theme
+salmon 242,179,164
+tanish 229,201,178
+weird grey 191,180,174
+grey green 159,169,160
+kelp green 138,161,146*/
+.fishy {
+	--text-color: rgba(242,179,164, 1);
+	--line-up-color: rgba(242,179,164, 1);
+	--line-down-color: rgba(229,201,178, 1);
+	--background-color: rgba(138,161,146, 1);
+	--chart-up-fill-color: rgba(229,201,178, 1);
+	--chart-down-fill-color: rgba(229,201,178, 1);
+	--border-color: rgba(229,201,178, 1);
+}
+/*end fishy theme*/
+
+/*accessible theme 
+light red 216,27,96
+light blue 30,136,229
+dark yellow 255,193,7
+dark green 0,77,64*/
+.accessible {
+	--text-color: rgba(255,255,255, 1);
+	--line-up-color: rgba(0,77,64, .8);
+	--line-down-color: rgba(216,27,96, .8);
+	--background-color: rgba(30,136,229, .8);
+	--chart-up-fill-color: rgba(0,77,64, .8);
+	--chart-down-fill-color: rgba(216,27,96, .8);
+	--border-color: rgba(255,193,7, .8);
+}
+/*accessible theme*/
+

@@ -1,32 +1,35 @@
 # OBSCryptoTicketWidget
 
-OBSCryptoTicketWidget is an OBS overlay that display live crypto prices for any crypto currency you can think of!
+OBSCryptoTicketWidget is an OBS overlay that displays live crypto prices for any crypto currency you can think of!
+
+![Alt Text](https://i.giphy.com/media/szOC6UR3CKInYjcUwS/giphy.webp)
+
 
 ## Installation
 
-Place entire OBSCryptoTickerWidget folder into your OBS installations /obs-plugins/64bit folder
+Place the entire OBSCryptoTickerWidget folder into your OBS installations /obs-plugins/64bit folder
 
-Start OBS and Add a new Browser source in OBS and give it a name hit 'OK'
+Start OBS and add a new Browser source in OBS, give it a name and hit 'OK'
 
-![name-browser](https://user-images.githubusercontent.com/47755826/109430595-c970d580-79c7-11eb-9a3f-6b384429e743.PNG)
+![image](https://user-images.githubusercontent.com/22139030/109432194-b19d4f80-79cf-11eb-9c7f-782ff932311f.png)
 
 Select ```Properties``` for the new Browser source
 
-![properties-button-ind](https://user-images.githubusercontent.com/47755826/109430451-2cae3800-79c7-11eb-99c7-8ee466c95003.png)
+![image](https://user-images.githubusercontent.com/22139030/109432314-27a1b680-79d0-11eb-9330-90a115642cc8.png)
 
-In the URL field put ```[your OBS installation folder]/obs-plugins/64bit/OBSCryptoTickerWidget/widget.html?theme=default&coin=dogecoin```
+In the URL field, put ```[your OBS installation folder]/obs-plugins/64bit/OBSCryptoTickerWidget/widget.html?theme=default&coin=dogecoin```
 
-![properties-url](https://user-images.githubusercontent.com/47755826/109430641-03da7280-79c8-11eb-9258-8df635142384.png)
+![image](https://user-images.githubusercontent.com/22139030/109432321-30928800-79d0-11eb-88a1-a37c35e51076.png)
 
 Remove any text in the Custom CSS input box
 
-![properties-ccss](https://user-images.githubusercontent.com/47755826/109430684-41d79680-79c8-11eb-92a1-3d7a5d34a8e0.png)
+![image](https://user-images.githubusercontent.com/22139030/109432325-38522c80-79d0-11eb-99e8-3169a78ed91c.png)
 
 ## Usage
 ### Themes
 You can change the theme of your widget by changing the theme variable in the URL field from above ```theme=default```
 
-![properties-theme](https://user-images.githubusercontent.com/47755826/109430744-7a777000-79c8-11eb-8bd0-ddacf0795650.png)
+![image](https://user-images.githubusercontent.com/22139030/109432367-6a638e80-79d0-11eb-9ae4-6da1f5b91315.png)
 
 to any of the following:
 
@@ -41,7 +44,7 @@ accessible
 ### Coins
 You can change the coin your widget is tracking by changing the coin variable in the URL field ```coin=dogecoin```
 
-![properties-coin](https://user-images.githubusercontent.com/47755826/109430752-86fbc880-79c8-11eb-9741-4ea0cb7cdd58.png)
+![image](https://user-images.githubusercontent.com/22139030/109432374-72233300-79d0-11eb-818e-cc0299dcdea6.png)
 
 any of the below (and more):
 

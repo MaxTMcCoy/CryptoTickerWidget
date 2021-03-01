@@ -9,28 +9,26 @@
 	--chart-border-color: rgba(223, 116, 12, 1);
 }
 
-
+/*arrows for growth/decline*/
 .arrow {
     display: inline-block;
-    width: 15px;
-    height: 15px;
-    border-top: 2px solid #000;
-    border-right: 2px solid #000;
-    left: 15px;
+    width: 8px;
+    height: 8px;
+    left: 10px;
     position: relative;
-    top: 6px;
 }
-  .arrow-top {
+	.arrow.arrow-top {
+	top: 2px;
 	transform: rotate(-45deg);
-	border-top: 2px solid rgba(109, 249, 122, 1);
-    border-right: 2px solid rgba(109, 249, 122, 1);
-  }
-  .arrow-bottom {
-	transform: rotate(135deg);
-	border-top: 2px solid rgba(249, 122, 109, 1);
-    border-right: 2px solid rgba(249, 122, 109, 1);
+	border-top: 5px solid rgba(109, 249, 122, 1);
+	border-right: 5px solid rgba(109, 249, 122, 1);
+	}
+	.arrow.arrow-bottom {
 	top: -3px;
-  }
+	transform: rotate(135deg);
+	border-top: 5px solid rgba(249, 122, 109, 1);
+	border-right: 5px solid rgba(249, 122, 109, 1);
+	}
 
 /*defaults*/
 .widget {
@@ -39,7 +37,6 @@
     border-radius: 20px;
     width: 500px;
     height: 192px;
-    /* border-bottom: solid 15px grey; */
     font-family: Arial, Helvetica, sans-serif;
   	background-repeat: no-repeat;
 	background-position: center;
@@ -178,3 +175,15 @@ dark green 0,77,64*/
 }
 /*accessible theme*/
 
+/*minimal theme*/
+.widget.minimal {
+	--text-color: rgba(116, 255, 91, 1);
+	--line-up-color: rgba(116, 255, 91, 1);
+	--line-down-color: rgba(255, 91, 91, 1);
+	--background-color: rgba(0, 0, 0, .0);
+	--chart-up-fill-color: rgba(0, 0, 0, .0);
+	--chart-down-fill-color: rgba(0, 0, 0, .0);
+	--border-color: rgba(0, 0, 0, .0);
+	box-shadow: 0 0 0 0;
+}
+/*end minimal theme*/

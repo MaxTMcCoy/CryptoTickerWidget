@@ -41,6 +41,24 @@ tron
 fishy
 accessible
 ```
+
+You can also make your own by changing the theme variable in the URL field from above ```theme=custom``` and pasting the following code into the Custom CSS field I told you to delete everything from earlier :)
+
+Change the rgba values to what ever you'd like.
+
+```
+.widget.custom {
+	--text-color: rgba(255,91,91, 1);
+	--line-up-color: rgba(255,91,91, 1);
+	--line-down-color: rgba(255,91,91, 1);
+	--background-color: rgba(91,255,157, .8);
+	--chart-up-fill-color: rgba(216,255,91, .6);
+	--chart-down-fill-color: rgba(216,255,91, .6);
+	--border-color: rgba(0, 0, 0, 0);
+	box-shadow: 0 0 0 0;
+}
+```
+
 ### Coins
 You can change the coin your widget is tracking by changing the coin variable in the URL field ```coin=dogecoin```
 

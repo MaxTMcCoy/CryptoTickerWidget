@@ -17,18 +17,18 @@
     left: 10px;
     position: relative;
 }
-	.arrow.arrow-top {
+.arrow.arrow-top {
 	top: 2px;
 	transform: rotate(-45deg);
 	border-top: 5px solid rgba(109, 249, 122, 1);
 	border-right: 5px solid rgba(109, 249, 122, 1);
-	}
-	.arrow.arrow-bottom {
+}
+.arrow.arrow-bottom {
 	top: -3px;
 	transform: rotate(135deg);
 	border-top: 5px solid rgba(249, 122, 109, 1);
 	border-right: 5px solid rgba(249, 122, 109, 1);
-	}
+}
 
 /*defaults*/
 .widget {

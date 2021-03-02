@@ -42,7 +42,12 @@ fishy
 accessible
 ```
 
-You can also make your own by changing the theme variable in the URL field from above ```theme=custom``` and pasting the following code into the Custom CSS field I told you to delete everything from earlier :)
+You can also make your own by changing the theme variable in the URL field from above ```theme=custom``` 
+![urlcustom](https://user-images.githubusercontent.com/47755826/109591898-00cca880-7ad4-11eb-8df9-14de43f451f6.PNG)
+
+and pasting the following code into the Custom CSS field I told you to delete everything from earlier :)
+
+![custom](https://user-images.githubusercontent.com/47755826/109591965-1b068680-7ad4-11eb-879e-b0e5418831e0.PNG)
 
 Change the rgba values to what ever you'd like.
 

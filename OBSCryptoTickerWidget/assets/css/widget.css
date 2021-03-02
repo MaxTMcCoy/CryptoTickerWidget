@@ -17,19 +17,74 @@
     left: 10px;
     position: relative;
 }
-.arrow.arrow-top {
+	.arrow.arrow-top {
 	top: 2px;
 	transform: rotate(-45deg);
 	border-top: 5px solid rgba(109, 249, 122, 1);
 	border-right: 5px solid rgba(109, 249, 122, 1);
-}
-.arrow.arrow-bottom {
+	}
+	.arrow.arrow-bottom {
 	top: -3px;
 	transform: rotate(135deg);
 	border-top: 5px solid rgba(249, 122, 109, 1);
 	border-right: 5px solid rgba(249, 122, 109, 1);
+	}
+	
+
+/* special sauce for dogecoin rocket */
+#coin-label .arrow + img.rocket {
+	display: none;
 }
 
+#coin-label.dogecoin .arrow.arrow-top + img.rocket {
+	display: inline;
+    max-height: 60px;
+    position: absolute;
+	top:75px;
+    transform: rotate(-45deg);
+    margin-top: -10px;
+	animation: upmove 2s;
+	animation-iteration-count: 1;
+}
+
+#coin-label.dogecoin .arrow.arrow-bottom + img.rocket {
+	display: inline;
+    max-height: 60px;
+    position: absolute;
+	top:75px;
+    transform: rotate(135deg);
+    margin-top: -10px;
+	animation: downmove 2s;
+	animation-iteration-count: 1;
+}
+
+/* @keyframes upmove {
+	from {top: 75px;}
+	to {top:-60px;}
+} */
+
+/* @keyframes downmove {
+	from {top: 75px;}
+	to {top: 500px;}
+} */
+
+
+  @keyframes upmove {
+	0%   {top: 75px;}
+	50%  {top: -100px;}
+	100%  {top: 75px;}
+  }
+
+  @keyframes downmove {
+	0%   {top: 75px;}
+	50%  {top: 600px;}
+	100%  {top: 75px;}
+  }
+
+
+#coin-label.dogecoin .arrow {
+	display: none;
+}
 /*defaults*/
 .widget {
     padding-top: 20px;

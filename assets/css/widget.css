@@ -17,62 +17,63 @@
     left: 10px;
     position: relative;
 }
-	.arrow.arrow-top {
+.arrow.arrow-top {
 	top: 2px;
 	transform: rotate(-45deg);
 	border-top: 5px solid rgba(109, 249, 122, 1);
 	border-right: 5px solid rgba(109, 249, 122, 1);
-	}
-	.arrow.arrow-bottom {
+}
+.arrow.arrow-bottom {
 	top: -3px;
 	transform: rotate(135deg);
 	border-top: 5px solid rgba(249, 122, 109, 1);
 	border-right: 5px solid rgba(249, 122, 109, 1);
-	}
+}
 	
 
 /* special sauce for dogecoin rocket */
 #coin-label .arrow + img.rocket {
+	content:url(https://cdn.jsdelivr.net/gh/MaxTMcCoy/CryptoTickerWidget@1.0.4/assets/images/dogecoin-moon.png);
 	display: none;
 }
 
-	#coin-label.dogecoin .arrow + img.rocket {
-		display: inline;
-		max-height: 60px;
-		position: relative;
-		animation-iteration-count: 1;
-		margin-top: -35px;
-		top: 25px;
-		z-index: 1;
-	}
+#coin-label.dogecoin .arrow + img.rocket {
+	display: inline;
+	max-height: 60px;
+	position: relative;
+	animation-iteration-count: 1;
+	margin-top: -35px;
+	top: 25px;
+	z-index: 1;
+}
 
-		#coin-label.dogecoin .arrow.arrow-top + img.rocket {
-			transform: rotate(-45deg);
-			animation: upmove 2s;
-			animation-delay: 1s;
-		}
+#coin-label.dogecoin .arrow.arrow-top + img.rocket {
+	transform: rotate(-45deg);
+	animation: upmove 2s;
+	animation-delay: 1s;
+}
 
-		#coin-label.dogecoin .arrow.arrow-bottom + img.rocket {
-			transform: rotate(135deg);
-			animation: downmove 2s;
-			animation-delay: 1s;
-		}
+#coin-label.dogecoin .arrow.arrow-bottom + img.rocket {
+	transform: rotate(135deg);
+	animation: downmove 2s;
+	animation-delay: 1s;
+}
 
-  @keyframes upmove {
-	0%   {top: 25px;}
-	25%  {top: -200px; opacity: 0;}
-	50%  {opacity: 0;}
-	75%  {top: 400px;}
-	100% {top: 25px; opacity: 1;}
-  }
+@keyframes upmove {
+0%   {top: 25px;}
+25%  {top: -200px; opacity: 0;}
+50%  {opacity: 0;}
+75%  {top: 400px;}
+100% {top: 25px; opacity: 1;}
+}
 
-  @keyframes downmove {
-	0%   {top: 25px;}
-	25%  {top: 200px; opacity: 0;}
-	50%  {opacity: 0;}
-	75% {top: -200px;}
-	100% {top: 25px; opacity: 1;}
-  }
+@keyframes downmove {
+0%   {top: 25px;}
+25%  {top: 200px; opacity: 0;}
+50%  {opacity: 0;}
+75% {top: -200px;}
+100% {top: 25px; opacity: 1;}
+}
 
   
 /* @keyframes upmove {

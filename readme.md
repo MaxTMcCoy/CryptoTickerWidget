@@ -7,7 +7,7 @@ OBSCryptoTicketWidget is an OBS overlay that displays live crypto prices for any
 
 ## Installation
 
-Place the entire OBSCryptoTickerWidget folder into your OBS installations /obs-plugins/64bit folder
+Extract/unzip CryptoTickerWidget folder and copy the the path to CryptoTickerWidget/widget.html
 
 Start OBS and add a new Browser source in OBS, give it a name and hit 'OK'
 
@@ -17,9 +17,10 @@ Select ```Properties``` for the new Browser source
 
 ![image](https://user-images.githubusercontent.com/22139030/109432314-27a1b680-79d0-11eb-9330-90a115642cc8.png)
 
-In the URL field, put ```[your OBS installation folder]/obs-plugins/64bit/OBSCryptoTickerWidget/widget.html?theme=default&coin=dogecoin```
+In the URL field, paste the full path to CryptoTickerWidget/widget.html and add ```?theme=default&coin=dogecoin``` to the end
+If you extracted/unzipped in your downloads folder it will look something like this ```C:/downloads/CryptoTickerWidget/widget.html?theme=default&coin=dogecoin```
 
-![image](https://user-images.githubusercontent.com/22139030/109432321-30928800-79d0-11eb-88a1-a37c35e51076.png)
+![properties](https://user-images.githubusercontent.com/47755826/111018387-1c5e6b80-837e-11eb-8a20-5003ed2d90e3.PNG)
 
 Remove any text in the Custom CSS input box
 

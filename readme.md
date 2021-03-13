@@ -44,7 +44,7 @@ accessible
 ```
 
 You can also make your own by changing the theme variable in the URL field from above ```theme=custom``` 
-![urlcustom](https://user-images.githubusercontent.com/47755826/109591898-00cca880-7ad4-11eb-8df9-14de43f451f6.PNG)
+![propertiescustomurl](https://user-images.githubusercontent.com/47755826/111018560-2cc31600-837f-11eb-8336-cee410f66e03.PNG)
 
 and pasting the following code into the Custom CSS field I told you to delete everything from earlier :)
 
@@ -68,7 +68,7 @@ Change the rgba values to what ever you'd like.
 ### Coins
 You can change the coin your widget is tracking by changing the coin variable in the URL field ```coin=dogecoin```
 
-![image](https://user-images.githubusercontent.com/22139030/109432374-72233300-79d0-11eb-818e-cc0299dcdea6.png)
+![coinchange](https://user-images.githubusercontent.com/47755826/111018600-65fb8600-837f-11eb-9d3d-4e04f5bd74a4.png)
 
 any of the below (and more):
 

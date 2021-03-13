@@ -24,13 +24,13 @@ If you extracted/unzipped in your downloads folder it will look something like t
 
 Remove any text in the Custom CSS input box
 
-![image](https://user-images.githubusercontent.com/22139030/109432325-38522c80-79d0-11eb-99e8-3169a78ed91c.png)
+![customcss](https://user-images.githubusercontent.com/47755826/111018448-70695000-837e-11eb-9bf6-c59d66494271.png)
 
 ## Usage
 ### Themes
 You can change the theme of your widget by changing the theme variable in the URL field from above ```theme=default```
 
-![image](https://user-images.githubusercontent.com/22139030/109432367-6a638e80-79d0-11eb-9ae4-6da1f5b91315.png)
+![themechange](https://user-images.githubusercontent.com/47755826/111018493-b1616480-837e-11eb-9b9c-5d4577bd4294.png)
 
 to any of the following:
 

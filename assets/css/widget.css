@@ -9,6 +9,18 @@
 	--chart-border-color: rgba(223, 116, 12, 1);
 }
 
+.created-by {
+	font-size: .75rem;
+	position: absolute;
+	top: 200px;
+	left: 292px;
+}
+
+.plain-text {
+	color: var(--text-color);
+	text-decoration: none;
+}
+
 /*arrows for growth/decline*/
 .arrow {
     display: inline-block;
@@ -33,7 +45,7 @@
 
 /* special sauce for dogecoin rocket */
 #coin-label .arrow + img.rocket {
-	content:url(https://cdn.jsdelivr.net/gh/MaxTMcCoy/CryptoTickerWidget@1.0.4/assets/images/dogecoin-moon.png);
+	content:url(https://cdn.jsdelivr.net/gh/MaxTMcCoy/CryptoTickerWidget@1.0.6/assets/images/dogecoin-moon.png);
 	display: none;
 }
 

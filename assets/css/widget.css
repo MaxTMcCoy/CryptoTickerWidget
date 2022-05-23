@@ -45,7 +45,7 @@
 
 /* special sauce for dogecoin rocket */
 #coin-label .arrow + img.rocket {
-	content:url(https://cdn.jsdelivr.net/gh/MaxTMcCoy/CryptoTickerWidget@1.0.5/assets/images/dogecoin-moon.png);
+	content:url(https://cdn.jsdelivr.net/gh/MaxTMcCoy/CryptoTickerWidget@1.0.6/assets/images/dogecoin-moon.png);
 	display: none;
 }
 
